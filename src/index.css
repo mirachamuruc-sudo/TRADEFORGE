@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forge-bg: #070707;
+  --color-forge-secondary: #0D0D0D;
+  --color-forge-card: #111111;
+  --color-forge-card-hover: #161616;
+  --color-forge-border: #242424;
+  --color-forge-border-hover: #383838;
+  --color-forge-orange: #FF6A00;
+  --color-forge-orange-hover: #FF7E1F;
+  --color-forge-red: #FF3D00;
+  --color-forge-text: #FFFFFF;
+  --color-forge-muted: #999999;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom background cyber grid and lighting */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 106, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 106, 0, 0.035) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(255, 106, 0, 0.12) 0%, rgba(255, 61, 0, 0.03) 45%, transparent 70%);
+}
+
+.glow-orange-sm {
+  box-shadow: 0 0 16px -4px rgba(255, 106, 0, 0.25);
+}
+
+.glow-orange-md {
+  box-shadow: 0 0 30px -6px rgba(255, 106, 0, 0.35);
+}
+
+.glass-panel {
+  background: rgba(17, 17, 17, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #242424;
+}
+
+/* Custom modern dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070707;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A00;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "TradeForge",
+  "description": "Trade smarter. Build bigger. A modern community platform for Roblox developers, creators, and players.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
